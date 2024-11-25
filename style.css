@@ -1,0 +1,228 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+.header-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.logo {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.navigation a {
+    margin: 0 15px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+/* Get Started Section */
+.get-started {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.action-btn {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.image-slider {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.image-slider-container {
+    display: flex;
+    animation: slideImages 200s linear infinite;
+}
+
+.slider-image {
+    width: 400px;
+    height: 400px;
+    margin-right: 10px;
+}
+
+@keyframes slideImages {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(-200%);
+    }
+
+    75% {
+        transform: translateX(-300%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* Feature Section */
+.feature-box {
+    border: 2px solid orange;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    transition: background-color 0.3s ease;
+}
+
+.feature-box:hover {
+    background-color: orange;
+    color: white;
+}
+
+.features h3 {
+    font-weight: bold;
+    color: black;
+    font-size: 1.2em;
+}
+
+.features p {
+    color: black;
+    font-size: 1em;
+}
+
+/* Personalized Health Journey Section */
+.personalized-journey .card-box {
+    background-color: grey;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.personalized-journey .card-box:hover {
+    background-color: black;
+}
+
+.personalized-journey h2 {
+    color: black;
+    font-size: 1.5em;
+}
+
+.personalized-journey p {
+    color: black;
+}
+
+.sign-up {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Two Block Section */
+.two-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.block {
+    width: 48%;
+}
+
+.feature-image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.features-box {
+    padding: 20px;
+    border: 2px solid orange;
+}
+
+.features-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features-box li {
+    margin: 10px 0;
+    color: black;
+}
+
+/* Products Section */
+.products {
+    text-align: center;
+    background-color: lightgrey;
+    padding: 30px;
+}
+
+.main-action {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Scroll Animation Section */
+.scroll-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.scroll-card {
+    width: 22%;
+    background-color: lightgrey;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.scroll-card h3 {
+    color: black;
+    font-size: 1.2em;
+}
+
+.scroll-card p {
+    color: black;
+    font-size: 1em;
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.contact h2 {
+    font-size: 1.5em;
+}
+
+.contact p {
+    font-size: 1.2em;
+}
